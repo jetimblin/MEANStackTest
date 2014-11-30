@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        {{#if employees}}
+            {{#each employees}}
+                <div class="col-md-4">
+                <i class="fa fa-user"></i>
+                <p>Name: {{first_name}},{{last_name}}</p> 
+                <p>Company: {{company}}</p> 
+                <p>Title: {{title}}</p> 
+                <p>Location: {{location}}</p> 
+               
+                </div>
+            {{/each}}
+        {{else}}
+            <tr>
+            <td  class="col-md-4" >No data to display.</td>
+            </tr>
+        {{/if}}
+
+    </div>
+</div> <!-- /container -->

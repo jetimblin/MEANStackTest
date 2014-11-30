@@ -1,0 +1,2 @@
+Connected to mongodb://JETReadOnlyUser3:JETReadOnlyUser3@ds041157.mongolab.com:41157/JETMongoDB
+Request body is: [object Object]

@@ -1,0 +1,14 @@
+Sun, 30 Nov 2014 20:12:55 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at server.js:55:17
+Sun, 30 Nov 2014 20:12:55 GMT body-parser deprecated undefined extended: provide extended option at node_modules\body-parser\index.js:85:29
+Application has thrown an uncaught exception and is terminated:
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:689:11)
+    at ServerResponse.header (C:\Users\jtimb_000\Documents\My Web Sites\MEANStackTest\node_modules\express\lib\response.js:666:10)
+    at ServerResponse.json (C:\Users\jtimb_000\Documents\My Web Sites\MEANStackTest\node_modules\express\lib\response.js:232:10)
+    at Promise.<anonymous> (C:\Users\jtimb_000\Documents\My Web Sites\MEANStackTest\server.js:81:17)
+    at Promise.<anonymous> (C:\Users\jtimb_000\Documents\My Web Sites\MEANStackTest\node_modules\mongoose\node_modules\mpromise\lib\promise.js:172:8)
+    at Promise.EventEmitter.emit (events.js:95:17)
+    at Promise.emit (C:\Users\jtimb_000\Documents\My Web Sites\MEANStackTest\node_modules\mongoose\node_modules\mpromise\lib\promise.js:84:38)
+    at Promise.reject (C:\Users\jtimb_000\Documents\My Web Sites\MEANStackTest\node_modules\mongoose\node_modules\mpromise\lib\promise.js:111:15)
+    at Promise.error (C:\Users\jtimb_000\Documents\My Web Sites\MEANStackTest\node_modules\mongoose\lib\promise.js:95:15)
+    at Object.cb (C:\Users\jtimb_000\Documents\My Web Sites\MEANStackTest\node_modules\mongoose\lib\query.js:1007:29)

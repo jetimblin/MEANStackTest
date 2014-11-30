@@ -1,0 +1,1 @@
+Connected to mongodb://JETReadOnlyUser:JETReadOnlyUser@ds041157.mongolab.com:41157/JETMongoDB

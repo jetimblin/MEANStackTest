@@ -1,0 +1,3 @@
+Sun, 30 Nov 2014 20:08:06 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at server.js:55:17
+Sun, 30 Nov 2014 20:08:06 GMT body-parser deprecated undefined extended: provide extended option at node_modules\body-parser\index.js:85:29
+Sun, 30 Nov 2014 20:10:53 GMT express deprecated res.sendfile: Use res.sendFile instead at server.js:113:9

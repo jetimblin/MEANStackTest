@@ -1,0 +1,1 @@
+{ [MongoError: auth failed] name: 'MongoError', ok: 0, errmsg: 'auth failed', code: 18 }
